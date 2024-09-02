@@ -64,7 +64,7 @@ let sound = new Audio('./assets/sounds/error.mp3');
 
 function doYouGetToGoToHome() {
   var random =  getRandomArbitrary(0,100);
-  if(random < 120){
+  if(random < 20){
     
     sound.play();
 

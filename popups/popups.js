@@ -12,7 +12,7 @@ function closeWindow(){
 addEventListener("load", (event) => {});
 
 onload = (event) => {
-    alert(window.outerWidth +" "+ window.outerHeight);
+  //  alert(window.outerWidth +" "+ window.outerHeight);
 };
 
 addEventListener("resize", (event) => {});
