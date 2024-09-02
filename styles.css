@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gorgon {
+    background-color: rgb(252, 3, 65);
+}
+
+body{
+   
+    background-image: url("./assets/images/gorgon/lglgoelgeogle.png");
+
+    background-blend-mode: multiply;
+    background-size: 100px;
+    background-color: chartreuse;
+    
+    background-position: 75%;
+    background-repeat: repeat-y;
+   
+}
+
+
+.ohio{
+    display: flex;
+    justify-content: center;
+}
+
+.unright{
+  display: flex;
+  justify-content: right;
+}
+
+.delleft{
+  display: flex;
+  justify-content: left;
+}
+
+.bigredsmellytext{
+    color:red;
+    font-size: 10rem;
+    font-family: cursive;
+}
+
+.roundlikegulch {
+    border-radius: 200px;
+}
+
+header{
+    background-color: rebeccapurple;
+    
+}
+
+.listingoftheheadervariety{
+    background-color: yellow;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.tegucigalpa{
+    width: 500px;
+    height:50px;
+}
+
+.buttondelgorg{
+    background-color: gold;
+    margin: 50px;
+    border-radius: 25px;
+    border-width: 20px;
+    border-color: peru;
+}
+
+.buttondelgorg:hover{
+  transition: 0.25s ease-in-out;
+    width: 150px;
+    font-size: 20rem;
+    height: 150px;
+}
+
+.buttondelgorg:active{
+  transition: 0.25s ease-in-out;
+    width: 50px;
+    font-size: 10rem;
+    height: 50px;
+}
+
+ruby {
+    font-size: 3em;
+    color:lime
+}
+
+#plobbutton{
+    background-color: brown;
+    font-size: 1rem;
+}
+
+#plobbutton:hover{
+    transition: 0.25s ease-in-out;
+    transform: scale(4) rotate(5turn)
+}
+
+#plobbutton::after{
+  transition: 0.25s ease-in-out;
+  transform: scale(1);
+}
+
+#plobbutton:not(:hover){
+  transition: 0.25s ease-in-out;
+  transform: scale(1);
+}
+
+#plobbutton:active{
+  transition: 0.02s ease-in-out;
+  transform: scale(0.1);
+}
+
+#plobbutton::before{
+    background-color: brown;
+    font-size: 1rem;
+}
+  
+.plobversebutton{
+  width: 100%;
+  height: 50%;
+  border-radius: 15px;
+}
+
+.plobversebutton:hover{
+  transition: 0.25s ease-in-out;
+    transform: scale(1.77) rotate(2turn)
+}
+
+.plobversebutton:not(:hover){
+  transition: 0.25s ease-in-out;
+  transform: scale(1);
+}
+
+.plobverseA{
+  font-size: 3rem;
+  font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.disgustingcursive{
+  font-family: "Yellowtail", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(105,196,100,1) 13%, rgba(5,6,62,1) 21%, rgba(118,117,9,1) 40%, rgba(163,255,0,1) 46%, rgba(54,82,112,1) 52%, rgba(79,222,105,1) 56%, rgba(0,0,0,1) 67%, rgba(89,223,102,1) 74%, rgba(166,114,114,1) 93%, rgba(255,0,0,1) 98%);
+}
+
+
+kbd {
+  background-color: #da2d6d;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  box-shadow:
+    0 1px 1px rgba(120, 13, 74, 0.2),
+    0 2px 0 0 rgba(247, 79, 158, 0.7) inset;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1.85em;
+  font-weight: 700;
+  line-height: 1;
+  padding: 2px 4px;
+  white-space: nowrap;
+}
+
+
+
+#plobbuttonbutnoclick{
+  background-color: brown;
+  font-size: 1rem;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 5px;
+}
+
+#plobbuttonbutnoclick:hover{
+  transition: 0.25s ease-in-out;
+  transform: scale(2.5) rotate(5turn)
+}
+
+#plobbuttonbutnoclick::after{
+transition: 0.25s ease-in-out;
+transform: scale(1);
+}
+
+#plobbuttonbutnoclick:not(:hover){
+transition: 0.25s ease-in-out;
+transform: scale(1);
+}
+
+#plobbuttonbutnoclick::before{
+  background-color: brown;
+  font-size: 1rem;
+}
