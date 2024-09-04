@@ -31,3 +31,7 @@ onresize = (event) => {
     
 
 };
+
+function redirect(website){
+    window.open(website)
+};
